@@ -17,15 +17,15 @@
     <label>Nome</label>
     <input type="send" name="Nome" placeholder="Nome completo"> </input><br><br>
     <label>CPF</label>
-    <input type="send" name="Nome" placeholder="CPF"> </input><br><br>
-<!--GENERO-->
+    <input type="send" name="CPF" placeholder="CPF"> </input><br><br>
+<!--SEXO-->
 
     <div>
-        <label>GENERO</label>
-        <input type="radio" id="m" name="contact" value="email" />
+        <label>SEXO</label>
+        <input type="radio" id="M" name="MASCULINO" value="email" />
         <label for="m">Masculino</label>
   
-        <input type="radio" id="f" name="contact" value="phone" />
+        <input type="radio" id="F" name="FEMININO" value="phone" />
         <label for="f">Feminino</label>
   
       </div><BR>
@@ -33,9 +33,9 @@
     <label>DATA DE NASCIMENTO</label>
     <input type="date" name="datetime-local" placeholder="01/01/2000"> </input><br><br>
     <label>FONE</label>
-    <input type="email" name="TELEFONE" placeholder="(XX) XXXXX-XXXX"> </input><br><br>
+    <input type="tel" name="FONE" placeholder="(54) 99999-9999"> </input><br><br>
     <label>E-MAIL</label>
-    <input type="send" name="EMAIL" placeholder="E-mail"> </input><br><br>
+    <input type="email" name="EMAIL" placeholder="E-mail"> </input><br><br>
     <label>Rua</label>
     <input type="send" name="RUA" placeholder="RUA"> </input>
     <label>Nº</label>
@@ -50,7 +50,7 @@
     </select><BR><BR>
 
     <label>RENDA MENSAL R$</label>
-    <input type="number" name="RENDA" placeholder="0000,00" size="5" > </input><br><br>
+	<input type="range" name="RENDA" min="0" max="100000000"><br><br>
 
     <label>SENHA</label>
     <input type="password" name="SENHA" placeholder="********" > </input>
@@ -60,6 +60,8 @@
 <BR><BR>
 <input type="checkbox"> Não sou um Robô </input> <br>
 <input type="submit" name="CADASTRAR" value="CADASTRAR"></input>
+
+
 
 </form>
 
